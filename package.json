@@ -1,0 +1,33 @@
+{
+  "name": "newproject",
+  "version": "1.0.0",
+  "description": "Node & MongoDB CRUD",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulMolano/CRUD-Nodejs-and-Mongodb.git"
+  },
+  "keywords": [],
+  "author": "Paul Molano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulMolano/CRUD-Nodejs-and-Mongodb/issues"
+  },
+  "homepage": "https://github.com/paulMolano/CRUD-Nodejs-and-Mongodb#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "mongoose": "^6.1.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "nodemon": "^2.0.15"
+  }
+}
